@@ -31,12 +31,12 @@ main > p {
   line-height: 1.4em;
   color: var(--neutral-wenge-brown);
 }
-main > ul.preparation {
+main > section.preparation {
   background-color: var(--neutral-rose-white);
   border-radius: 8px;
   padding: 2em;
 }
-main > ul.preparation > h3 {
+main > section.preparation > h2 {
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 1.2em;
@@ -44,7 +44,7 @@ main > ul.preparation > h3 {
   margin-bottom: 1em;
 }
 
-main > ul.preparation > li {
+main > section.preparation > ul > li {
   position: relative;
   margin-left: 1em;
   font-family: "Outfit", Arial, Helvetica, sans-serif;
@@ -54,29 +54,29 @@ main > ul.preparation > li {
   line-height: 2em;
   list-style: disc;
 }
-main > ul.preparation > li::marker {
+main > section.preparation > ul > li::marker {
   color: var(--primary-dark-raspberry);
 }
-main > ul.preparation > li > strong {
+main > section.preparation > ul > li > strong {
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 1em;
   color: var(--neutral-wenge-brown);
 }
-main > ul.ingredients {
+main > section.ingredients {
   display: flex;
   flex-direction: column;
   gap: 1em;
   padding-bottom: 2em;
   border-bottom: 1px solid var(--neutral-light-grey);
 }
-main > ul.ingredients > h2 {
+main > section.ingredients > h2 {
   font-family: "Young Serif", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 2em;
   color: var(--primary-nutmeg);
 }
-main > ul.ingredients > li {
+main > section.ingredients > ul > li {
   position: relative;
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -85,24 +85,25 @@ main > ul.ingredients > li {
   margin: 0 1em;
   padding-left: 1em;
   list-style: disc;
+  line-height: 1.4em;
 }
-main > ul.ingredients > li::marker {
+main > section.ingredients > ul > li::marker {
   color: var(--primary-nutmeg);
 }
-main > ol.instructions {
+main > section.instructions {
   display: flex;
   flex-direction: column;
   gap: 1em;
   padding-bottom: 2em;
   border-bottom: 1px solid var(--neutral-light-grey);
 }
-main > ol.instructions > h2 {
+main > section.instructions > h2 {
   font-family: "Young Serif", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 2em;
   color: var(--primary-nutmeg);
 }
-main > ol.instructions > li {
+main > section.instructions > ol > li {
   list-style: decimal;
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -112,30 +113,30 @@ main > ol.instructions > li {
   padding-left: 1em;
   line-height: 1.5em;
 }
-main > ol.instructions > li::marker {
+main > section.instructions > ol > li::marker {
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 1em;
   color: var(--primary-nutmeg);
 }
-main > ol.instructions > li > strong {
+main > section.instructions > ol > li > strong {
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 1em;
   color: var(--neutral-wenge-brown);
 }
-main > ul.nutrition {
+main > section.nutrition {
   display: flex;
   flex-direction: column;
   gap: 1em;
 }
-main > ul.nutrition > h2 {
+main > section.nutrition > h2 {
   font-family: "Young Serif", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 2em;
   color: var(--primary-nutmeg);
 }
-main > ul.nutrition > p {
+main > section.nutrition > p {
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1em;
@@ -144,7 +145,7 @@ main > ul.nutrition > p {
   margin-bottom: 1em;
 }
 
-main > ul.nutrition > li {
+main > section.nutrition > ul > li {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -152,11 +153,11 @@ main > ul.nutrition > li {
   padding: 0 1em 1em;
   border-bottom: 1px solid var(--neutral-light-grey);
 }
-main > ul.nutrition > li > p:last-child {
+main > section.nutrition > ul > li > p:last-child {
   color: var(--primary-nutmeg);
   font-weight: 700;
 }
-main > ul.nutrition > li > p {
+main > section.nutrition > ul > li > p {
   display: block;
   width: 100%;
   font-family: "Outfit", Arial, Helvetica, sans-serif;
