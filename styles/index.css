@@ -1,0 +1,200 @@
+header {
+  background-color: var(--neutral-white);
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1336px;
+}
+header > img {
+  width: 100%;
+}
+main {
+  box-sizing: border-box;
+  max-width: 1336px;
+  margin: 0 auto;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  background-color: var(--neutral-white);
+}
+main > h1 {
+  font-family: "Young Serif", Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+  color: var(--neutral-dark-charcoal);
+}
+main > p {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: var(--neutral-wenge-brown);
+}
+main > ul.preparation {
+  background-color: var(--neutral-rose-white);
+  border-radius: 8px;
+  padding: 2em;
+}
+main > ul.preparation > h3 {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: var(--primary-dark-raspberry);
+  margin-bottom: 1em;
+}
+
+main > ul.preparation > li {
+  position: relative;
+  margin-left: 1em;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: var(--neutral-wenge-brown);
+  line-height: 2em;
+  list-style: disc;
+}
+main > ul.preparation > li::marker {
+  color: var(--primary-dark-raspberry);
+}
+main > ul.preparation > li > strong {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: var(--neutral-wenge-brown);
+}
+main > ul.ingredients {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid var(--neutral-light-grey);
+}
+main > ul.ingredients > h2 {
+  font-family: "Young Serif", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: var(--primary-nutmeg);
+}
+main > ul.ingredients > li {
+  position: relative;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: var(--neutral-wenge-brown);
+  margin: 0 1em;
+  padding-left: 1em;
+  list-style: disc;
+}
+main > ul.ingredients > li::marker {
+  color: var(--primary-nutmeg);
+}
+main > ol.instructions {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid var(--neutral-light-grey);
+}
+main > ol.instructions > h2 {
+  font-family: "Young Serif", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: var(--primary-nutmeg);
+}
+main > ol.instructions > li {
+  list-style: decimal;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: var(--neutral-wenge-brown);
+  margin: 0 1em;
+  padding-left: 1em;
+  line-height: 1.5em;
+}
+main > ol.instructions > li::marker {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: var(--primary-nutmeg);
+}
+main > ol.instructions > li > strong {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: var(--neutral-wenge-brown);
+}
+main > ul.nutrition {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main > ul.nutrition > h2 {
+  font-family: "Young Serif", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: var(--primary-nutmeg);
+}
+main > ul.nutrition > p {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: var(--neutral-wenge-brown);
+  margin-bottom: 1em;
+}
+
+main > ul.nutrition > li {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 1em;
+  padding: 0 1em 1em;
+  border-bottom: 1px solid var(--neutral-light-grey);
+}
+main > ul.nutrition > li > p:last-child {
+  color: var(--primary-nutmeg);
+  font-weight: 700;
+}
+main > ul.nutrition > li > p {
+  display: block;
+  width: 100%;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: var(--neutral-wenge-brown);
+}
+
+footer {
+  box-sizing: border-box;
+  max-width: 1336px;
+  margin: 0 auto;
+  padding: 0 32px;
+  font-size: 0.7em;
+  text-align: center;
+  background-color: var(--neutral-white);
+}
+footer > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em 0;
+}
+footer > ul > li > a {
+  color: var(--primary-link);
+}
+@media screen and (min-width: 1440px) {
+  header {
+    margin-top: 2em;
+    padding: 2em 2em 0;
+    border-radius: 2em 2em 0 0;
+  }
+  header > img {
+    border-radius: 1em;
+  }
+  footer {
+    margin-bottom: 2em;
+    border-radius: 0 0 2em 2em;
+  }
+}
